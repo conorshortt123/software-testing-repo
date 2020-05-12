@@ -30,22 +30,22 @@
  **11.0** Risks/Assumptions</br>
  **12.0** Tools</br>
 
-1.0 INTRODUCTION
+### 1.0 INTRODUCTION
 
 A brief summary of the product being tested. Outline all the functions at a high level.
 
-2.0 OBJECTIVES AND TASKS
+### 2.0 OBJECTIVES AND TASKS
 
-2.1 Objectives
+### 2.1 Objectives
 
 Describe the objectives supported by the Master Test Plan, eg., defining tasks and responsibilities,
 vehicle for communication, document to be used as a service level agreement, etc.
 
-2.2 Tasks
+### 2.2 Tasks
 
 List all tasks identified by this Test Plan, i.e., testing, post-testing, problem reporting, etc.
 
-3.0 SCOPE
+### 3.0 SCOPE
 
 General
 This section describes what is being tested, such as all the functions of a specific product, its existing
@@ -56,7 +56,7 @@ example, if you have mentioned that you will be testing the existing interfaces,
 procedures you would follow to notify the key people to represent their respective areas, as well as
 allotting time in their schedule for assisting you in accomplishing your activity?
 
-4.0 TESTING STRATEGY
+### 4.0 TESTING STRATEGY
 
 Describe the overall approach to testing. For each major group of features or feature combinations,
 specify the approach which will ensure that these feature groups are adequately tested. Specify the
@@ -64,7 +64,7 @@ major activities, techniques, and tools which are used to test the designated gr
 The approach should be described in sufficient detail to permit identification of the major testing
 tasks and estimation of the time required to do each one. 
 
-4.1 Unit Testing
+### 4.1 Unit Testing
 
 Definition:
 Specify the minimum degree of comprehensiveness desired. Identify the techniques which will be
@@ -78,7 +78,7 @@ Describe how unit testing will be conducted, including a description of tests to
 will write the test scripts for the unit testing, what would be the sequence of events of Unit Testing
 and how will the testing activity take place?
 
-4.2 System and Integration Testing
+### 4.2 System and Integration Testing
 
 Definition:
 List what is your understanding of System and Integration Testing for your project.
@@ -90,7 +90,7 @@ Describe how System & Integration testing will be conducted, including a descrip
 carried out Who will write the test scripts for the unit testing, what would be sequence of events of
 System & Integration Testing, and how will the testing activity take place?
 
-4.3 Performance and Stress Testing
+### 4.3 Performance and Stress Testing
 
 Definition:
 List what is your understanding of Stress Testing for your project.
@@ -102,7 +102,7 @@ Describe how Performance & Stress testing will be conducted, including a descrip
 carried out Who will write the test scripts for the testing, what would be sequence of events of
 Performance & Stress Testing, and how will the testing activity take place? 
 
-4.4 User Acceptance Testing
+### 4.4 User Acceptance Testing
 
 Definition:
 The purpose of acceptance test is to confirm that the system is ready for operational use. During
@@ -114,9 +114,9 @@ Describe how the User Acceptance testing will be conducted, including a descript
 carried out Who will write the test scripts for the testing, what would be sequence of events of User
 Acceptance Testing, and how will the testing activity take place?
 
-4.5 Batch Testing
+### 4.5 Batch Testing
 
-4.6 Automated Regression Testing
+### 4.6 Automated Regression Testing
 
 Definition:
 Regression testing is the selective retesting of a system or component to verify that modifications
@@ -125,11 +125,11 @@ requirements.
 Participants:
 Methodology:
 
-4.7 Beta Testing Participants:
+### 4.7 Beta Testing Participants:
 
 Methodology:
 
-5.0 TEST SCHEDULE
+### 5.0 TEST SCHEDULE
 
 Include test milestones identified in the Software Project Schedule as well as all item transmittal
 events.
@@ -137,7 +137,7 @@ Define any additional test milestones needed. Estimate the time required to do e
 Specify the schedule for each testing task and test milestone. For each testing resource (that is,
 facilities, tools, and staff), specify its periods of use.
 
-6.0 CONTROL PROCEDURES
+### 6.0 CONTROL PROCEDURES
 
 Problem Reporting
 Document the procedures to follow when an incident is encountered during the testing process. If a
@@ -148,16 +148,16 @@ Document the process of modifications to the software. Identify who will sign of
 and what would be the criteria for including the changes to the current product. If the changes will
 affect existing programs, these modules need to be identified.
 
-7.0 FEATURES TO BE TESTED
+### 7.0 FEATURES TO BE TESTED
 
 Identify all software features and combinations of software features that will be tested.
 
-8.0 FEATURES NOT TO BE TESTED
+### 8.0 FEATURES NOT TO BE TESTED
 
 Identify all features and significant combinations of features which will not be tested and the
 reasons.
 
-9.0 RESOURCES/ROLES & RESPONSIBILITIES
+### 9.0 RESOURCES/ROLES & RESPONSIBILITIES
 
 Specify the staff members who are involved in the test project and what their roles are going to be
 (for example, Mary Brown (User) compile Test Cases for Acceptance Testing). Identify groups
@@ -165,7 +165,7 @@ responsible for managing, designing, preparing, executing, and resolving the tes
 related issues. Also identify groups responsible for providing the test environment. These groups
 may include developers, testers, operations staff, testing services, etc.
 
-10.0 SCHEDULES
+### 10.0 SCHEDULES
 
 Identify the deliverable documents. You can list the following documents:
 - Test Plan
@@ -173,12 +173,12 @@ Identify the deliverable documents. You can list the following documents:
 - Test Incident Reports
 - Test Summary Reports
 
-11.0 RISKS/ASSUMPTIONS
+### 11.0 RISKS/ASSUMPTIONS
 
 Identify the high-risk assumptions of the test plan. Specify contingency plans for each (for example,
 delay in delivery of test items might require increased night shift scheduling to meet the delivery
 date).
 
-12.0 TOOLS
+### 12.0 TOOLS
 
 List the Automation tools you are going to use. List also the Bug tracking tool here. 
