@@ -31,7 +31,6 @@
  **12.0** Tools</br>
 
 ## 1.0 INTRODUCTION
-<hr>
 This test plan describes the testing approach that we will take to drive the testing of the 2D side-scrolling platformer, "The Pixel Wizard". Inspired by the likes of ‘Salt and Sanctuary’,
 ‘Shovel Knight’, and ‘Fancy Pants’, with elements from ‘Skyrim’ (mainly in the way the
 player character and enemy characters attack). The artwork will be inspired mainly by Shovel
@@ -69,7 +68,6 @@ All software features and combinations of software features that will be tested 
 All software features and combinations of software features that won't be tested and the reasons for not testing them will be outlined here.
 
 ## 2.0 OBJECTIVES AND TASKS
-<hr>
 
 ### 2.1 Objectives
 
@@ -91,7 +89,6 @@ A set of stable scripts that can be reused for UAT and unit testing.
 **Post-Testing** - Tasks will be carried out after testing, any bugs or glitches reported in the Problem Reporting Document will be fixed by the developers and changes in the Change Request will be made.
 
 ## 3.0 SCOPE
-<hr>
 
 **General**</br>
 There are multiple components in this project that should be tested:
@@ -114,7 +111,6 @@ allotting time in their schedule for assisting you in accomplishing your activit
 To accomplish the general tests I have highlighted in scope, I will assemble a team of testers and create a schedule so that each test is done incrementally. To assemble my team I would first email each respective member with a link to a Microsoft teams call. 
 
 ## 4.0 TESTING STRATEGY
-<hr>
 
 Describe the overall approach to testing. For each major group of features or feature combinations,
 specify the approach which will ensure that these feature groups are adequately tested. Specify the
@@ -188,7 +184,7 @@ Methodology:
 Methodology:
 
 ## 5.0 TEST SCHEDULE
-<hr>
+
 
 Include test milestones identified in the Software Project Schedule as well as all item transmittal
 events.
@@ -197,7 +193,7 @@ Specify the schedule for each testing task and test milestone. For each testing 
 facilities, tools, and staff), specify its periods of use.
 
 ## 6.0 CONTROL PROCEDURES
-<hr>
+
 
 Problem Reporting
 Document the procedures to follow when an incident is encountered during the testing process. If a
@@ -209,18 +205,18 @@ and what would be the criteria for including the changes to the current product.
 affect existing programs, these modules need to be identified.
 
 ## 7.0 FEATURES TO BE TESTED
-<hr>
+
 
 Identify all software features and combinations of software features that will be tested.
 
 ## 8.0 FEATURES NOT TO BE TESTED
-<hr>
+
 
 Identify all features and significant combinations of features which will not be tested and the
 reasons.
 
 ## 9.0 RESOURCES/ROLES & RESPONSIBILITIES
-<hr>
+
 
 Specify the staff members who are involved in the test project and what their roles are going to be
 (for example, Mary Brown (User) compile Test Cases for Acceptance Testing). Identify groups
@@ -229,7 +225,7 @@ related issues. Also identify groups responsible for providing the test environm
 may include developers, testers, operations staff, testing services, etc.
 
 ## 10.0 SCHEDULES
-<hr>
+
 
 Identify the deliverable documents. You can list the following documents:
 - Test Plan
@@ -238,13 +234,13 @@ Identify the deliverable documents. You can list the following documents:
 - Test Summary Reports
 
 ## 11.0 RISKS/ASSUMPTIONS
-<hr>
+
 
 Identify the high-risk assumptions of the test plan. Specify contingency plans for each (for example,
 delay in delivery of test items might require increased night shift scheduling to meet the delivery
 date).
 
 ## 12.0 TOOLS
-<hr>
+
 
 List the Automation tools you are going to use. List also the Bug tracking tool here. 
