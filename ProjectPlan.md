@@ -341,3 +341,10 @@ High risk assumptions are allocated time per testing cycle, for example system i
 
 ## 11.0 TOOLS
 
+Multiple tools are required for the tests to be carried out. The operations manager Mary Smith will allocate the necessary resources to each team. Some of the tools required are:
+
+- Selenium
+- TestingWhiz
+- TestComplete
+- Ranorex
+- HPE Unified Functional Testing : Regression Testing
