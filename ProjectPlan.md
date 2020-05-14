@@ -158,16 +158,6 @@ Blaine Burke: Testing enemy behavior, enemy health, health pickups.
 
 ### 4.2 System and Integration Testing
 
-<!--Definition:
-List what is your understanding of System and Integration Testing for your project.
-Participants:
-Who will be conducting System and Integration Testing on your project? List the individuals that will
-be responsible for this activity.
-Methodology:
-Describe how System & Integration testing will be conducted, including a description of tests to be
-carried out Who will write the test scripts for the unit testing, what would be sequence of events of
-System & Integration Testing, and how will the testing activity take place?-->
-
 **Definition:**
 
 System Integration Testing is defined as a type of software testing carried out in an integrated hardware and software environment to verify the behavior of the complete system. It is testing conducted on a complete, integrated system to evaluate the system's compliance with its specified requirement. All modules of the game should be completely integrated in advance of doing this testing.
@@ -176,111 +166,178 @@ System Integration Testing is defined as a type of software testing carried out 
 
 &emsp;**Department:** Game Developers
 
-&emsp;**Team:** 
+&emsp;**Team:** Mary Brown, John Trayers, James McDuff
 
 **Methodology:**
 
-Each unit of the game will be tested, this includes all UI function such as the menu, options menu, volume control, etc. The in-game mechanics and features will also be tested, this includes the health bar, character controls, enemy mechanics, pickups, bosses etc.
+The game will be tested as a whole with this testing method.
 
-Conor Shortt: Testing menu screen interface, including play game, settings, load game, delete game, exit game
-Aaron Moran: Testing player control scheme, and player mechanics.</br>
-Blaine Burke: Testing enemy behavior, enemy health, health pickups.
+All team members will write scripts for the integrated test.
 
 ### 4.3 Performance and Stress Testing
 
-Definition:
-List what is your understanding of Stress Testing for your project.
-Participants:
-Who will be conducting Stress Testing on your project? List the individuals that will be responsible
-for this activity.
-Methodology:
-Describe how Performance & Stress testing will be conducted, including a description of tests to be
-carried out Who will write the test scripts for the testing, what would be sequence of events of
-Performance & Stress Testing, and how will the testing activity take place? 
+Performance testing will be used to determine how well the game runs, using metrics such as response time, fps (frames per second), if the application uses the minimum amount of resources necessary to run, etc. Stress testing will be used to put the game under a high load and determine how it performs when pushed to it's limit. Stress testing usually maxes out the CPU and/or GPU to determine the upper limits of capability.
+
+**Participants:**
+
+&emsp;**Department:** Game Developers
+
+&emsp;**Team:** Patrick Bateman, Lex Luthor, Johnny John
+
+**Methodology:**
+
+To test performance, different systems with varying hardware specifications will be used to test how well the game runs in different areas. Such as load times, frames per second, input lag, etc.
+
+To stress test the game, it will be put under load by instantiating 100 - 1000 enemies to see how well the game runs under immense load.
+
+Patrick and Lex will execute performance testing as it will have to be done on multiple systems, and Johnny will execute stress testing as it relatively fast.
 
 ### 4.4 User Acceptance Testing
 
-Definition:
-The purpose of acceptance test is to confirm that the system is ready for operational use. During
-acceptance test, end-users (customers) of the system compare the system to its initial requirements.
-Participants:
-Who will be responsible for User Acceptance Testing? List the individuals' names and responsibility.
-Methodology:
-Describe how the User Acceptance testing will be conducted, including a description of tests to be
-carried out Who will write the test scripts for the testing, what would be sequence of events of User
-Acceptance Testing, and how will the testing activity take place?
+The game will be verified by a team of users to make sure it can handle required tasks in real-world scenarios, according to specifications.
+
+User acceptance testing will be used to determine if the game is accepted by the customer as a valid piece of software. UAT is probably the most essential method of testing, as they are the people who will use the software on a daily basis.
+
+**Participants:**
+
+&emsp;**Department:** Testers
+
+&emsp;**Team:** Mike Quinn, Darragh Watts, Laura Charles
+
+**Methodology:**
+
+A set of test steps, execution conditions and expected results developed for a each area of the game, such as to exercise a particular program path or to verify compliance with a specific requirement. Each user gives feedback which is compiled into a document, and then analyzed later.
 
 ### 4.5 Automated Regression Testing
 
-Definition:
+<!--Definition:
 Regression testing is the selective retesting of a system or component to verify that modifications
 have not caused unintended effects and that the system or component still works as specified in the
-requirements.
-Participants:
-Methodology:
+requirements.-->
+
+Regression testing is the selective retesting of a system or component to verify that modifications
+have not caused unintended effects and that the system or component still works as specified in the
+requirements
+
+**Participants:**
+
+&emsp;**Department:** Developers and Testers
+
+&emsp;**Team:** Tom Barry, Terry Cruise, Joshua Baker
+
+**Methodology:**
+
+Each member of the team will be assigned a different component/module that has been modified. The automated tests will be run. If the output is not accepted by the tester then the developers will begin fixing any bugs/issues.
 
 ### 4.6 Beta Testing Participants:
 
-Methodology:
+Beta Testing of a product is performed by "real users" of the software application in a "real environment" and can be considered as a form of external User Acceptance Testing.
+
+Beta version of the software is released to a limited number of end-users of the product to obtain feedback on the product quality. Beta testing reduces product failure risks and provides increased quality of the product through customer validation.
+
+It is the final test before shipping a product to the customers. Direct feedback from customers is a major advantage of Beta Testing. This testing helps to tests the product in customer's environment.
+
+**Participants:**
+
+&emsp;**Department:** End users (customers)
+
+&emsp;**Team:** Tim Jones, Bobby Brown, Charlie Chaplin
+
+**Methodology:**
+
+The beta testing will run for a few weeks. Data is gathered by each member of the team and most of the issues or feedback is collected from Beta testing will be implemented in future versions of the product. Beta testing also concentrates on the quality of the product, but gathers users input on the product and ensures that the product is ready for real time users.  
 
 ## 5.0 TEST SCHEDULE
 
-
-Include test milestones identified in the Software Project Schedule as well as all item transmittal
+<!--Include test milestones identified in the Software Project Schedule as well as all item transmittal
 events.
 Define any additional test milestones needed. Estimate the time required to do each testing task.
 Specify the schedule for each testing task and test milestone. For each testing resource (that is,
-facilities, tools, and staff), specify its periods of use.
+facilities, tools, and staff), specify its periods of use.-->
+
+**Milestones:**
+
+&emsp;**Week One**
+* Write up test plan, test cases, and execute unit testing. (Duration 5 days total)
+* System integration testing will be completed in 3 days.
+* **Resources and Facilities:** Three team members, two allocated to unit tests, one to system integration. Team members also require laptops/pcs to perform tests.
+
+&emsp;**Week Two**
+* Write up test plan, test cases, and execute performance testing. (Duration 3 days total)
+* Stress testing should take no more than two days to execute and compile results.
+* **Resources and Facilities:** Three team members, two allocated to performance tests, one to stress testing. Team members also require laptops/pcs to perform tests.
+
+&emsp;**Week Three**
+* Begin user acceptance testing. (Duration 5 days)
+* Analyze changes made to software and begin automated regression testing. (Duration 3 days)
+* **Resources and Facilities:** Three team members, two allocated to UAT tests, and one to automated regression testing. Team members and users also require laptops/pcs to perform tests. Tests will be performed on company grounds.
+
+&emsp;**Week Four and Five**
+* Begin beta testing (Duration two weeks)
+* Multiple customers will be given access to beta test the game. Their feedback and data is collected.
+* **Resources and Facilities:** Multiple team members, to collect all data and feedback and also to help users if they have any problems.
 
 ## 6.0 CONTROL PROCEDURES
 
-
 Problem Reporting
-Document the procedures to follow when an incident is encountered during the testing process. If a
-standard form is going to be used, attach a blank copy as an "Appendix" to the Test Plan. In the
-event you are using an automated incident logging system, write those procedures in this section.
+
+An incident logging procedure is applied when a problem is reported. The tester fills in a "Problem Report Document", which is then collected and stored on a database. When the particular testing is done, the documents are analyzed by developers and they can then begin resolving issues.
+
 Change Requests
-Document the process of modifications to the software. Identify who will sign off on the changes
-and what would be the criteria for including the changes to the current product. If the changes will
-affect existing programs, these modules need to be identified.
+
+If a change is to be made, a "Change Request Form" is to be filled out and submitted. The lead tester will review and potentially sign off on the changes. To make a change to the game it must keep with the general theme. If the change affects another aspect of the game, this aspect must be highlighted in the form.
 
 ## 7.0 FEATURES TO BE TESTED
 
-
-Identify all software features and combinations of software features that will be tested.
-
-## 8.0 FEATURES NOT TO BE TESTED
-
-
-Identify all features and significant combinations of features which will not be tested and the
-reasons.
-
-## 9.0 RESOURCES/ROLES & RESPONSIBILITIES
+* Menu Interface
+* Options Interface
+* In-Game UI
+* In-Game mechanics. (physics, control scheme, etc)
+* Enemy behavior
 
 
-Specify the staff members who are involved in the test project and what their roles are going to be
-(for example, Mary Brown (User) compile Test Cases for Acceptance Testing). Identify groups
-responsible for managing, designing, preparing, executing, and resolving the test activities as well as
-related issues. Also identify groups responsible for providing the test environment. These groups
-may include developers, testers, operations staff, testing services, etc.
+## 8.0 RESOURCES/ROLES & RESPONSIBILITIES
 
-## 10.0 SCHEDULES
+**Management:**
+
+&emsp;**Lead Developers:**</br>
+&emsp;&emsp;Conor Shortt (Dev) oversee test case compilation for Unit Testing</br>
+&emsp;&emsp;Bobby Lee (Dev) oversee test case compilation for Integration Testing</br>
+&emsp;&emsp;Tim Jones (Dev) oversee test case compilation for Performance and Stress Testing</br>
+&emsp;&emsp;Mary Brown (Dev) oversee test case compilation for User Acceptance Testing</br>
+&emsp;&emsp;John Murphy (Dev) oversee test case compilation for Automated Regression Testing</br>
+&emsp;&emsp;Dave Doherty (Dev) oversee distribution of beta version of software for Beta Testing</br>
+
+&emsp;**Operations Staff:**</br>
+&emsp;&emsp;Maria Smith (Lead Operations Director) organize and acquire testing facilities and tools.</br>
+
+**Users:**
+
+&emsp;**User Acceptance Testers:**</br>
+&emsp;&emsp;Mary Brown (User) compile Test Cases for Acceptance Testing</br>
+&emsp;&emsp;John Jones (User) compile Test Cases for Acceptance Testing</br>
+&emsp;&emsp;Timmy Smith (User) compile Test Cases for Acceptance Testing</br>
+
+&emsp;**Beta Testers:**</br>
+&emsp;&emsp;All end users who test the game and provide feedback.</br>
 
 
-Identify the deliverable documents. You can list the following documents:
+## 9.0 SCHEDULES
+
+For each testing cycle, a strict regime of deliverable documents must be followed. These documents include:
+
 - Test Plan
 - Test Cases
 - Test Incident Reports
 - Test Summary Reports
 
-## 11.0 RISKS/ASSUMPTIONS
+For any change requests the following documents must also be delivered:
 
+- Change request form
 
-Identify the high-risk assumptions of the test plan. Specify contingency plans for each (for example,
-delay in delivery of test items might require increased night shift scheduling to meet the delivery
-date).
+## 10.0 RISKS/ASSUMPTIONS
 
-## 12.0 TOOLS
+High risk assumptions are allocated time per testing cycle, for example system integration testing may be difficult to complete in 3 days and may require a delayed delivery, or if necessary increased nights shift/overtime to deliver the product for the required date.
 
+## 11.0 TOOLS
 
-List the Automation tools you are going to use. List also the Bug tracking tool here. 
