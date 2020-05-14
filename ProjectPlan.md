@@ -103,38 +103,62 @@ Control mechanisms should also be tested. Each individual control as well as com
 
 **Tactics**
 
-List here how you will accomplish the items that you have listed in the "Scope" section. For
+<!--List here how you will accomplish the items that you have listed in the "Scope" section. For
 example, if you have mentioned that you will be testing the existing interfaces, what would be the
 procedures you would follow to notify the key people to represent their respective areas, as well as
-allotting time in their schedule for assisting you in accomplishing your activity?
+allotting time in their schedule for assisting you in accomplishing your activity?-->
 
-To accomplish the general tests I have highlighted in scope, I will assemble a team of testers and create a schedule so that each test is done incrementally. To assemble my team I would first email each respective member with a link to a Microsoft teams call. 
+To accomplish the general tests I have highlighted in scope, I will assemble a team of testers and create a schedule so that each test is done incrementally. To assemble my team I would first email each respective member with a link to a Microsoft teams call, were we will thoroughly discuss and write up a schedule for each member of the team.
 
 ## 4.0 TESTING STRATEGY
 
-Describe the overall approach to testing. For each major group of features or feature combinations,
+<!--Describe the overall approach to testing. For each major group of features or feature combinations,
 specify the approach which will ensure that these feature groups are adequately tested. Specify the
 major activities, techniques, and tools which are used to test the designated groups of features.
 The approach should be described in sufficient detail to permit identification of the major testing
-tasks and estimation of the time required to do each one.
+tasks and estimation of the time required to do each one.-->
+
+The tests will execute and verify the test scripts, identify, fix and retest all high and medium severity defects per the entrance criteria, prioritize lower severity defects for future fixing.
+
+There are multiple methods of testing that will be used. Each method will have it's own team of testers who will develop a Test Plan, which they will prepare, review, rework until it is adequate. A set of test cases/scripts will also be developed, and then the test method will be executed.
+
+All features will be tested individually using Unit Testing, Unit Testing is a level of software testing where individual units/ components of a software are tested. The test team will be allotted 3 days to write up their unit tests.
+
+A feature that will be tested using System Integration Testing (SIT) is all of the interfaces of the game as a whole. The test team will be allotted 2 days to execute these tests.
+
+Performance testing will be used to determine how well the game runs, using metrics such as response time, fps (frames per second), if the application uses the minimum amount of resources necessary to run, etc. The test team will be allotted 4 days to execute these tests.
+
+Stress testing will be used to put the game under a high load and determine how it performs when pushed to it's limit. Stress testing usually maxes out the CPU and/or GPU to determine the upper limits of capability. The test team will be allotted 1 day to execute these tests.
+
+User acceptance testing will be used to determine if the game is accepted by the customer as a valid piece of software. UAT is probably the most essential method of testing, as they are the people who will use the software on a daily basis. The game will be verified by a team of users to make sure it can handle required tasks in real-world scenarios, according to specifications. The users that are testing the game will be allotted 1 week to thoroughly test each feature.
+
+Automated regression testing will be used to test a component of the software that has been changed, along with all it's dependencies.
+
+Beta testing will be utilized to release the game to the public. Beta Testing of a product is performed by "real users" of the software application in a "real environment".
 
 ### 4.1 Unit Testing
 
-Definition:
-Specify the minimum degree of comprehensiveness desired. Identify the techniques which will be
-used to judge the comprehensiveness of the testing effort (for example, determining which
-statements have been executed at least once). Specify any additional completion criteria (for
-example, error frequency). The techniques to be used to trace requirements should be specified.
-Participants:
-List the names of individuals/departments who would be responsible for Unit Testing.
-Methodology:
-Describe how unit testing will be conducted, including a description of tests to be carried out. Who
-will write the test scripts for the unit testing, what would be the sequence of events of Unit Testing
-and how will the testing activity take place?
+**Definition:**
+
+UNIT TESTING is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output. Each function or class should be tested individually, and tests will be written for each. Each statement will be executed at least once.
+
+**Participants:**
+
+&emsp;**Department:** Game Developers
+
+&emsp;**Team:** Conor Shortt, Blaine Burke, Aaron Moran
+
+**Methodology:**
+
+Each unit of the game will be tested, this includes all UI function such as the menu, options menu, volume control, etc. The in-game mechanics and features will also be tested, this includes the health bar, character controls, enemy mechanics, pickups, bosses etc.
+
+Conor Shortt: Testing menu screen interface, including play game, settings, load game, delete game, exit game
+Aaron Moran: Testing player control scheme, and player mechanics.</br>
+Blaine Burke: Testing enemy behavior, enemy health, health pickups.
 
 ### 4.2 System and Integration Testing
 
-Definition:
+<!--Definition:
 List what is your understanding of System and Integration Testing for your project.
 Participants:
 Who will be conducting System and Integration Testing on your project? List the individuals that will
@@ -142,7 +166,25 @@ be responsible for this activity.
 Methodology:
 Describe how System & Integration testing will be conducted, including a description of tests to be
 carried out Who will write the test scripts for the unit testing, what would be sequence of events of
-System & Integration Testing, and how will the testing activity take place?
+System & Integration Testing, and how will the testing activity take place?-->
+
+**Definition:**
+
+System Integration Testing is defined as a type of software testing carried out in an integrated hardware and software environment to verify the behavior of the complete system. It is testing conducted on a complete, integrated system to evaluate the system's compliance with its specified requirement. All modules of the game should be completely integrated in advance of doing this testing.
+
+**Participants:**
+
+&emsp;**Department:** Game Developers
+
+&emsp;**Team:** 
+
+**Methodology:**
+
+Each unit of the game will be tested, this includes all UI function such as the menu, options menu, volume control, etc. The in-game mechanics and features will also be tested, this includes the health bar, character controls, enemy mechanics, pickups, bosses etc.
+
+Conor Shortt: Testing menu screen interface, including play game, settings, load game, delete game, exit game
+Aaron Moran: Testing player control scheme, and player mechanics.</br>
+Blaine Burke: Testing enemy behavior, enemy health, health pickups.
 
 ### 4.3 Performance and Stress Testing
 
@@ -168,9 +210,7 @@ Describe how the User Acceptance testing will be conducted, including a descript
 carried out Who will write the test scripts for the testing, what would be sequence of events of User
 Acceptance Testing, and how will the testing activity take place?
 
-### 4.5 Batch Testing
-
-### 4.6 Automated Regression Testing
+### 4.5 Automated Regression Testing
 
 Definition:
 Regression testing is the selective retesting of a system or component to verify that modifications
@@ -179,7 +219,7 @@ requirements.
 Participants:
 Methodology:
 
-### 4.7 Beta Testing Participants:
+### 4.6 Beta Testing Participants:
 
 Methodology:
 
